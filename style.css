@@ -1,0 +1,63 @@
+/* Start General Colors */
+:root{
+--White: hsl(0,0%,100%);
+--Lightgray: hsl(212, 45%, 89%);
+--Grayishblue: hsl(220, 15%, 55%);
+--Darkblue: hsl(218, 44%, 22%);
+}
+/* End General Colors */
+/* Start General Style */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* End General Style */
+body {
+   width: 100vw;
+   min-height: 100vh;
+   background-color: var(--Lightgray);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+
+.card{
+    background-color: var(--White);
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+    width: 20%;
+}
+
+img{
+    width: 100%;
+border-radius: 25px;
+margin-bottom: 20px;
+
+}
+
+h2{
+    color: var(--Darkblue);
+    margin-bottom: 20px;
+}
+
+.A{
+    font-weight: bold;
+    color:var(--Grayishblue);
+    text-align: center;
+}
+
+
+.attribution{
+    
+    position: absolute;
+    bottom: 10px;
+
+
+}
+
+
